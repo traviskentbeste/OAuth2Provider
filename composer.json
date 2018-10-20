@@ -27,7 +27,6 @@
         "zendframework/zend-loader": "~2.1",
         "zendframework/zend-mvc": "~3.1.0",
         "zendframework/zend-modulemanager": "~2.1",
-        "zendframework/zend-servicemanager": "~2.1",
         "zendframework/zend-stdlib": "~2.1",
         "zendframework/zend-view": "~2.1"
     },
