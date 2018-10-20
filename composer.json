@@ -1,0 +1,47 @@
+{
+    "name": "traviskentbeste/oauth2provider",
+    "type": "library",
+    "description": "ZF2 OAuth2 Provider module",
+    "keywords": [
+        "OAuth2",
+        "OAuth2 Module",
+        "Zend Framework 2",
+        "zf2 module"
+    ],
+    "homepage": "https://github.com/traviskentbeste/OAuth2Provider",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Franz de Leon",
+            "email": "franz_dl@yahoo.com"
+        },
+        {
+            "name": "Travis Kent Beste",
+            "email": "travis.beste@tencorners.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.9",
+        "bshaffer/oauth2-server-php": "~1.3",
+        "zendframework/zend-loader": "~2.1",
+        "zendframework/zend-mvc": "~3.1.0",
+        "zendframework/zend-modulemanager": "~2.1",
+        "zendframework/zend-servicemanager": "~2.1",
+        "zendframework/zend-stdlib": "~2.1",
+        "zendframework/zend-view": "~2.1"
+    },
+    "autoload": {
+        "psr-0": {
+            "OAuth2Provider": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    }
+}
